@@ -117,11 +117,3 @@ Will implement the retrieval → prompt construction → LLM generation loop usi
 - Outbound internet from notebooks is restricted to a trusted-domain allowlist — external documents (e.g., SEC EDGAR filings) must be downloaded locally and uploaded through the UI rather than fetched directly from a notebook.
 - Free Edition is intended for non-commercial use, which this portfolio project satisfies.
 
-## Status
-
-✅ Phase 1 — Bronze ingestion
-✅ Phase 2 — Silver chunking (both strategies)
-✅ Phase 3 — Embeddings (both strategies)
-✅ Phase 4 — Vector Search indexing (both strategies)
-✅ Phase 6 — Evaluation (chunking strategy comparison complete)
-🔄 Phase 5 — Agent + Model Serving (in progress)
