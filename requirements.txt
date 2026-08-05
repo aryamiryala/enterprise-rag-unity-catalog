@@ -1,0 +1,18 @@
+# PDF text extraction (Phase 1: Bronze ingestion)
+pypdf
+
+# Embeddings + LLM calls via Databricks-hosted models (Phases 3, 5)
+mlflow
+openai
+
+# Vector Search client (Phase 4-5)
+# Note: databricks-vectorsearch is deprecated in favor of databricks-ai-search,
+# but is still functional as of this writing (thin re-export). Prefer the new
+# package for new projects:
+databricks-ai-search
+# databricks-vectorsearch  # legacy import path used during initial development
+
+# PySpark is pre-installed in the Databricks runtime and is not needed here
+# for notebooks run on Databricks compute. Include only if running any part
+# of this pipeline outside Databricks (e.g., local testing):
+# pyspark
